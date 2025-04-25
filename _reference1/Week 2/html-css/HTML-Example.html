@@ -1,0 +1,53 @@
+<!-- This tells the browser what the type of file is -->
+<!DOCTYPE html>
+<!-- this section wraps the entirety of the html content of the page -->
+<html lang="en">
+    <!-- this section holds meta data and sometimes useful links to resources needed by the page -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Example Page</title>
+    </head>
+    <!-- content of the page goes here -->
+    <body>
+        <!-- 
+            Elements like the header elements that have opening and closing tags expect you
+            to put content inside of them to benefit from the way the browser renders them
+        -->
+        <h1>This is a very large header</h1>
+        <h3>This is a smaller header</h3>
+        <!-- 
+            Elements like the img element that do not require a closing tag expected you to
+            put the relevant content needed for them to work inside of the tag as values for
+            the attributes of the element
+
+            in the img element below, the src attribute is used to inform the browser of what
+            image should be rendered in the element. The src should be a url to the location of
+            the image relative to the location of the html
+        -->
+        <img src="example-image.png">
+
+        <!-- 
+            Header elements are typically used when you need to have a heading for a section on
+            your page. There are 6 different header types, with h1 being the largest and h6 being
+            the smallest
+
+            Note when rendered these elements are all on separate "lines" of the page. This is 
+            because header elements are "block" elements by default: they are designed to be
+            rendered on their own "line" of the page, so no other elements are rendered on the
+            same "line" as them
+        -->
+        <h1>H1 header</h1>
+        <h2>H2 header</h2>
+        <h3>H3 header</h3>
+        <h4>H4 header</h4>
+        <h5>H5 header</h5>
+        <h6>H6 header</h6>
+        <a>First anchor element</a>
+        <a>Second anchor element</a>
+    </body>
+    <!-- code to make the web page dynamic goes in a script section -->
+    <script>
+
+    </script>
+</html>
